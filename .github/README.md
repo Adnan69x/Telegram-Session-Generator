@@ -4,32 +4,6 @@
     ──「 𝖲𝖾𝗌𝗌𝗂𝗈𝗇 𝖦𝖾𝗇 Bᴏᴛ 」──
 </h2>
 
-<p align="center">
-  <img src="#">
-</p> - Get your [Necessary Variables](https://github.com/Adnan69x/Telegram-Session-Generator/blob/master/sample.env)
-- Upgrade and Update by :
-`sudo apt-get update && sudo apt-get upgrade -y`
-- Install required packages by :
-`sudo apt-get install python3-pip`
-- Install pip by :
-`sudo pip3 install -U pip`
-- Clone the repository by :
-`git clone https://github.com/Adnan69x/Telegram-Session-Generator && cd StringGenBot`
-- Install requirements by :
-`pip3 install -U -r requirements.txt`
-- Fill your variables in the env by :
-`vi sample.env`<br>
-Press `I` on the keyboard for editing env<br>
-Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
-- Rename the env file by :
-`mv sample.env .env`
-- Install tmux to keep running your bot when you close the terminal by :
-`sudo apt install tmux && tmux`
-- Finally run the bot by :
-`bash start`
-- For getting out from tmux session<br>
-Press `Ctrl+b` and then `d`
-
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [𝖲𝖾𝗌𝗌𝗂𝗈𝗇 𝗑 𝖥𝖺𝗍𝗁𝖾𝗋](https://t.me/SessionXFatherBot)**_
 ━━━━━━━━━━━━━━━━━━━━
 
@@ -61,7 +35,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [𝖲𝖾𝗌𝗌�
 <summary><h3>
 - <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
 </h3></summary>
-
+<p align="center">
 - Get your [Necessary Variables](https://github.com/Adnan69x/Telegram-Session-Generator/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
