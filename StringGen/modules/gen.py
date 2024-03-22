@@ -191,7 +191,7 @@ async def gen_session(
         try:
             pwd = await Adnany.ask(
                 identifier=(message.chat.id, user_id, None),
-                text="» PLEASE ENTER YOUR TWO STEP VERIFICATION PASSWORD TO CONTINUE :",
+                text="» ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴛᴡᴏ sᴛᴇᴘ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴘᴀssᴡᴏʀᴅ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ :",
                 filters=filters.text,
                 timeout=300,
             )
