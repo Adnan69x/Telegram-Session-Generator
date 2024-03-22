@@ -266,17 +266,17 @@ async def gen_session(
 async def cancelled(message):
     if "/cancel" in message.text:
         await message.reply_text(
-            "» CANCELLED THE ONGOING STRING GENERATION PROCESS.", reply_markup=retry_key
+            "» ᴄᴀɴᴄᴇʟʟᴇᴅ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴩʀᴏᴄᴇss.", reply_markup=retry_key
         )
         return True
     elif "/restart" in message.text:
         await message.reply_text(
-            "» SUCCESSFULLY RESTATED THIS BOT.", reply_markup=retry_key
+            "» sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇsᴛᴀʀᴛᴇᴅ ᴛʜɪs ʙᴏᴛ.", reply_markup=retry_key
         )
         return True
     elif message.text.startswith("/"):
         await message.reply_text(
-            "» CANCELLED THE ONGOING STRING GENERATION PROCESS.", reply_markup=retry_key
+            "» ᴄᴀɴᴄᴇʟʟᴇᴅ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴩʀᴏᴄᴇss.", reply_markup=retry_key
         )
         return True
     else:
