@@ -246,7 +246,7 @@ async def gen_session(
         await client.disconnect()
         await Adnany.send_message(
             chat_id=user_id,
-            text=f"SUCCESSFULLY GENERATED YOUR {ty} STRING SESSION.\n\nPLEASE CHECK YOUR SAVED MESSAGES FOR GETTING IT.\n\nᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ <a href={SUPPORT_CHAT}>ADNANiTUNE</a>.",
+            text=f"sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ғᴏʀ ɢᴇᴛᴛɪɴɢ ɪᴛ.\n\nᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ <a href={SUPPORT_CHAT}>ADNANiTUNE</a>.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
