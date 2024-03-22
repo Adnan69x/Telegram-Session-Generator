@@ -11,7 +11,7 @@
         "pyrogram",
         "telethon"
     ],
-    "repository": "https://github.com/MohammadAzharAdnan/Telegram-Session-Generator",
+    "repository": "https://github.com/Adnan69x/Telegram-Session-Generator",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
