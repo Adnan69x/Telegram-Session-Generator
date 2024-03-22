@@ -46,7 +46,7 @@ async def gen_session(
     else:
         ty = f"ᴩʏʀᴏɢʀᴀᴍ v2"
 
-    await message.reply_text(f"» TRYING TO START {ty} SESSION GENERATOR...")
+    await message.reply_text(f"» ᴛʀʏɪɴɢ ᴛᴏ sᴛᴀʀᴛ {ty} sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ...")
 
     try:
         api_id = await Adnany.ask(
@@ -118,7 +118,7 @@ async def gen_session(
         return
     phone_number = phone_number.text
 
-    await Adnany.send_message(user_id, "» TRYING TO SEND OTP AT THE GIVEN NUMBER...")
+    await Adnany.send_message(user_id, "» ᴛʀʏɪɴɢ ᴛᴏ sᴇɴᴅ ᴏᴛᴩ ᴀᴛ ᴛʜᴇ ɢɪᴠᴇɴ ɴᴜᴍʙᴇʀ...")
     if telethon:
         client = TelegramClient(StringSession(), api_id, api_hash)
     elif old_pyro:
@@ -156,7 +156,7 @@ async def gen_session(
     try:
         otp = await Adnany.ask(
             identifier=(message.chat.id, user_id, None),
-            text=f"PLEASE ENTER THE OTP SENT TO {phone_number}.\n\nIF OTP IS <code>12345</code>, PLEASE SEND IT AS <code>1 2 3 4 5.</code>",
+            text=f"ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ᴏᴛᴘ sᴇɴᴛ ᴛᴏ {phone_number}.\n\nɪғ ᴏᴛᴩ ɪs <code>12345</code>, ᴩʟᴇᴀsᴇ sᴇɴᴅ ɪᴛ ᴀs <code>1 2 3 4 5.</code>",
             filters=filters.text,
             timeout=600,
         )
