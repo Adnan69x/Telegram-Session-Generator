@@ -9,7 +9,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="SUPPORT", url=SUPPORT_CHAT),
             InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ", url="https://github.com/MohammadAzharAdnan/Telegram-Session-Generator"
+                text="SOURCE", url="https://github.com/MohammadAzharAdnan/Telegram-Session-Generator"
             ),
         ],
     ]
