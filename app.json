@@ -38,11 +38,6 @@
             "value": "",
             "required": true
         },
-        "LOGGER_ID": {
-            "description": "Fill your logger group/channel id here. (Must be integer)",
-            "value": "",
-            "required": true
-        }
     },
     "buildpacks": [
         {
