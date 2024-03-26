@@ -13,36 +13,41 @@
     ],
     "repository": "https://github.com/Adnan69x/Telegram-Session-Generator",
     "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "Fill your user id here. (Must be integer)",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get this value from cloud.mongodb.com",
-        "value": "",
-        "required": true
-      }
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "A Bot's token from Botfather",
+            "value": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Fill your user id here. (Must be integer)",
+            "value": "",
+            "required": true
+        },
+        "MONGO_DB_URI": {
+            "description": "Get this value from cloud.mongodb.com",
+            "value": "",
+            "required": true
+        },
+        "LOGGER_ID": {
+            "description": "Fill your logger group/channel id here. (Must be integer)",
+            "value": "",
+            "required": true
+        }
     },
     "buildpacks": [
-          {
-              "url": "heroku/python"
-          }
-      ],
-      "stack": "container"
-  }
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "stack": "container"
+}
